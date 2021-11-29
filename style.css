@@ -1,0 +1,168 @@
+/* Initial Margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Initial Margin */
+
+
+/* Initial Login page */
+h1{
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    color: blue; 
+    background-color: violet;
+}
+.login {
+    width: 40%;
+    height: 20em;
+    position:relative;
+    top: 10rem;
+    left: 20rem;
+}
+/* Initial Login page */
+
+/*  Login page Responsive */
+ @media (max-width:400px){
+    h1{
+        text-align: center; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform:uppercase;
+        color: blue; 
+        background-color: violet;
+        width: 100%;
+        
+    }
+    .login {
+        width: 70%;
+        height: 20em;
+        position:relative;
+        left:7%;
+        top:5%;
+        
+    }
+
+ }
+ 
+ @media (max-width:1100px){
+    h1{
+        text-align: center; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform:uppercase;
+        color: blue; 
+        background-color: violet;
+        width: 100%;
+        
+    }
+    .login {
+        width: 40%;
+        height: 20em;
+        position:relative;
+        left:15em;
+        top:7em;
+        
+    }
+    @media (max-width:960px){
+        h1{
+            text-align: center; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform:uppercase;
+            color: blue; 
+            background-color: violet;
+            width: 100%;
+            
+        }
+        .login {
+            width: 40%;
+            height: 20em;
+            position:relative;
+            left:15em;
+            top:4em;
+            
+        }
+    
+     }
+
+ }
+
+ @media (max-width:825px){
+    h1{
+        text-align: center; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform:uppercase;
+        color: blue; 
+        background-color: violet;
+        width: 100%;
+        
+    }
+    .login {
+        width: 50%;
+        height: 20em;
+        position:relative;
+        left:12em;
+        top:.5em;
+        
+    }
+
+ }
+ @media (max-width:500px){
+    h1{
+        text-align: center; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform:uppercase;
+        color: blue; 
+        background-color: violet;
+        width: 100%;
+        
+    }
+    .login {
+        width: 60%;
+        height: 20em;
+        position:relative;
+        left:4em;
+        top:.5em;
+        
+    }
+
+ }
+/*  Login page Responsive */
+
+/*  Initial To do List page */
+table{
+    position: relative;
+    width:60% !important;
+    top: 2em;
+    left: 10em;
+    border: 2px solid black !important ;
+    text-align: center;
+   
+}
+#check{
+    width: 10%;
+}
+#status{
+    width:25%;
+}
+/*  Initial To do List page */
+
+
+/*   To do List page Responsive */
+@media (max-width:748px){
+    table{
+        position: relative;
+        width:60% !important;
+        top: 2em;
+        left: 10em;
+        border: 2px solid black !important ;
+        text-align: center;
+       left: 4rem;
+    }
+    #check{
+        width: 7%;
+    }
+    #status{
+        width:18%;
+    }
+}
+/*   To do List page Responsive */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./bootstrap.min.css">
+<script defer src="./script.js"></script>
+<script defer src="./bootstrap.min.js"></script>
+    
+</head>
+<body style="background-image: url(/images/3.jpg); background-repeat: no-repeat; background-size: cover;">
+<!-- Navigation -->
+    <nav class="navbar navbar-light bg-secondary ">
+        <form class="container-fluid justify-content-right bg-secondary">
+          <button class="btn btn-outline-primary text-white me-2" type="button" id="btn">To Do List</button>
+          <button class="btn btn-sm btn-outline-primary text-white" type="button" id="logout">Logout</button>
+        </form>
+      </nav>
+      <!-- Navigation -->
+
+
+      <!-- Table -->
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col" id="check">Checkbox</th>
+            <th scope="col">Task</th>
+            <th scope="col" id="status">Status</th>
+            
+          </tr>
+        </thead>
+        <tbody id="table">
+         
+        </tbody>
+      </table>
+      <!-- Table -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>   
+</body>
+</html>
