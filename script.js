@@ -13,7 +13,7 @@ xhr.onreadystatechange= function (){
       for(i=0;i<20;i++){
           var result=aj[i];
           
-          output= output+`<tr id='color${i}'><td><input id='checked${i}' onclick='myfunction(this);' type='checkbox'></td><td>${result.title}<td id="status${i}"></td></td></tr>`;
+          output= output+`<tr id='color${i}'><td><input  id='checked${i}' onclick='myfunction(this);' type='checkbox'></td><td>${result.title}<td id="status${i}"></td></td></tr>`;
        
       }
       
@@ -45,13 +45,13 @@ function myfunction(y){
         
         c++;
     
-    if (c==5){
+    if (c%5==0){
         alert("Congratulations.You have successfully completed 5 tasks!!!");
     }
 }
     else{
         c--;
-        if(c==5){
+        if(c%5==0){
             alert("Congratulations.You have successfully completed 5 tasks!!!");
         }
     }
@@ -61,9 +61,18 @@ function myfunction(y){
 // Tick function
 
 
+document.getElementById(`checked${i}`).addEventListener("change",function(){
+    var g=document.querySelectorAll("input.checkbox").checked;
     
-    
+    for (var i=0;i<table.rows.length;i++ ){
+        
+        if(g[i]==true) {
+            document.getElementById(`color${i}`).style.backgroundColor="red";
+        }
+    }
+})
 
+    
     
    
 
